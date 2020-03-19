@@ -18,13 +18,13 @@ div {
 
 </style>
 <body>
-	<div id="faithAge">0</div>
+	<div id="faithAge">NaN</div>
 </body>
 <script>
 $(document).ready(function(){
  	var diff = ((new Date()) - (new Date("12/9/1983")));
  	var ad = new Date(diff);
  	var years = Math.abs(ad.getUTCFullYear()) - 1970;
- 	$("#faithAge").text(years) 
+// 	$("#faithAge").text(years) 
 });
 </script>
